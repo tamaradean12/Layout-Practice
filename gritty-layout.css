@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    background-color: aliceblue;
+
+}
+
+img {
+    width: 800px;
+}
+
+form, a {
+    float: left;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.main-btn {
+    background-color: rgb(67, 67, 67);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    width: 70px;
+}
+
+#menu {
+    display: none;
+}
+
+/*------------------------------- Header ------------------------------------*/
+header {
+    height: 70px;
+    margin: 15px 50px 0 50px;
+}
+
+header>nav * {
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    width: 33.33%;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+#nav-links {
+    width: 50%;
+    cursor: pointer;
+}
+
+header>nav>ul>li {
+    margin: 0 60px 0 10px;
+}
+
+#nav-btn {
+    float: right;
+}
+
+/*------------------------------- First Section ------------------------------------*/
+
+#splash {
+    clear: both;
+    height: 800px;
+}
+
+#splash>img {
+    float: right;
+    margin-top: -350px;
+}
+
+#left {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#left>span {
+    color: rgb(81, 81, 81);
+    margin-bottom: 80px;
+}
+
+#left>h2 {
+    font-size: 3rem;
+    margin-right: 72%;
+    padding-bottom: 30px;
+}
+
+#left>form>input {
+    padding: 6px;
+    border: none;
+    background-color: rgb(208, 208, 208);
+    width: 250px;
+}
+
+#left>a {
+    background-color: rgb(67, 67, 67);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 5.5px;
+    width: 70px;
+}
+#left>p {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    clear: both;
+    margin-right: 72%;
+}
+
+/*------------------------------------ Features ---------------------------------------*/
+
+.earth-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#features {
+    margin-top: -20%;
+    margin-left: 10%;
+}
+
+.feat {
+    float: left;
+    width: 25%;
+}
+
+.feat>p {
+    margin: 10px 170px 10px 0;
+}
+
+.feat>a>span>ion-icon {
+    width: 12px;
+    margin-left: -1px;
+    margin-bottom: -3px;
+}
+
+.feat>a {
+    text-decoration: none;
+}
+
+
+
+/*------------------------------- Second Section ------------------------------------*/
+
+#second-section {
+    clear: both;
+    background-color: white;
+}
+
+#second-section>h1 {
+    margin-right: 55%;
+    padding: 5%;
+    font-size: 3rem;
+}
+
+#second-section>p {
+    margin-top: -50px;
+    font-size: 1.2rem;
+    margin-left: 80px;
+    margin-right: 60%;
+}
+
+#second-section>img {
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 80%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    img {
+        width: 500px;
+    }
+
+    #menu {
+        display: block;
+        font-size: 30px;
+        color: rgb(75, 75, 75);
+        margin-top: -30px;
+        cursor: pointer;
+    }
+
+    header {
+        margin: 20px 10px 0 10px;
+        }
+
+    #logo {
+        text-align: center;
+        margin-left: 35%;
+    }
+
+    header>nav>ul>li {
+        display: none;
+    }
+
+    header>nav>a {
+        display: none;
+    }
+
+    #left>h2 {
+        font-size: 3.5rem;
+        margin-right: 10%;
+        padding-bottom: 30px;
+    }
+
+    #left>form>input {
+        width: 400px;
+        margin-bottom: 10px;
+    }
+    
+    #left>a {
+        width: 401px;
+    }
+
+    #left>p {
+        margin-top: 80px;
+        font-size: 1.2rem;
+        clear: both;
+        margin-right: 20%;
+    }
+
+    #splash>img {
+        float: right;
+        margin-top: 10px;
+    }
+
+    .feat>p {
+        margin-right: 5px;
+    }
+
+    #second-section>h1 {
+        margin-left: 20px;
+        margin-right: 5%;
+        font-size: 2.5rem;
+    }
+    
+    #second-section>p {
+        margin-top: 5px;
+        font-size: 1.2rem;
+        margin-left: 50px;
+        margin-right: 5%;
+    }
+
+    #second-section>img {
+        margin-left: 50px;
+    }
+
+
+}
